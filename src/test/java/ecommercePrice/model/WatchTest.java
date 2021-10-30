@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package ecommercePrice.model;
 import org.junit.jupiter.api.Test;
 
@@ -15,3 +16,7 @@ public class WatchTest {
         assertEquals(w.getDiscountRatio(), 0.667D);
     }
 }
+=======
+package ecommercePrice.model;public class WatchTest {
+}
+>>>>>>> Merge applications

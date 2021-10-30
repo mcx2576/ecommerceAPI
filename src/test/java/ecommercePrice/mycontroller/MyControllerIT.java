@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package ecommercePrice.mycontroller;
 import ecommercePrice.service.WatchService;
 import ecommercePrice.mycontroller.MyController;
@@ -44,4 +45,7 @@ public class MyControllerIT {
         assertNotNull(resultJSon);
         assertEquals("{\"price\": 400 }", resultJSon);
     }
+=======
+package ecommercePrice.mycontroller;public class MyControllerIT {
+>>>>>>> Merge applications
 }
