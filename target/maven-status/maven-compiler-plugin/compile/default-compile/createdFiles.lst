@@ -1,1 +1,4 @@
-MyApplication/MyApplication.class
+ecommercePrice/model/Watch.class
+ecommercePrice/Application.class
+ecommercePrice/service/WatchService.class
+ecommercePrice/mycontroller/MyController.class
