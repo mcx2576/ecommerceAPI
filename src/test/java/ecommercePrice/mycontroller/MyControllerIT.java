@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 package ecommercePrice.mycontroller;
 import ecommercePrice.service.WatchService;
 import ecommercePrice.mycontroller.MyController;
@@ -22,6 +20,7 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 public class MyControllerIT {
     @Autowired
     private MockMvc mockMvc;
+
     private void testExample() throws Exception {
         MvcResult result = mockMvc.perform(MockMvcRequestBuilders.post("/checkout")
                         .content("[\"001\",\"002\",\"001\",\"004\",\"003\"]")
@@ -34,6 +33,7 @@ public class MyControllerIT {
         assertNotNull(resultJSon);
         assertEquals("{\"price\": 360 }", resultJSon);
     }
+
     private void testExampleDiscount() throws Exception {
         MvcResult result = mockMvc.perform(MockMvcRequestBuilders.post("/checkout")
                         .content("[\"001\",\"002\",\"001\",\"004\",\"003\",\"002\",\"001\"]")
@@ -46,10 +46,4 @@ public class MyControllerIT {
         assertNotNull(resultJSon);
         assertEquals("{\"price\": 400 }", resultJSon);
     }
-=======
-package ecommercePrice.mycontroller;public class MyControllerIT {
->>>>>>> Merge applications
-=======
-package ecommercePrice.mycontroller;public class MyControllerIT {
->>>>>>> dfdba07a1e605dafcac7445fa339c8d7b80a35d7
 }

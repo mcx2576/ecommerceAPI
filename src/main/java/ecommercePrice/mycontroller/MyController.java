@@ -48,7 +48,7 @@ public class MyController {
     }
 
     public String[] processRequest(String str) {
-        String[] results = str.replaceAll("\\[", "").replaceAll("\\]", "").replaceAll("\"", "").split(",");
+        String[] results = str.replaceAll("\\[", "").replaceAll("\\]", "").replaceAll(" ", "").replaceAll("\"", "").split(",");
         return results;
     }
 }
