@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ecommercePrice/model/Watch.class
 ecommercePrice/Application.class
 ecommercePrice/service/WatchService.class
 ecommercePrice/mycontroller/MyController.class
+=======
+MyApplication/MyApplication.class
+>>>>>>> dfdba07a1e605dafcac7445fa339c8d7b80a35d7

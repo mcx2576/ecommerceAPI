@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package ecommercePrice.mycontroller;
 import ecommercePrice.service.WatchService;
 import ecommercePrice.mycontroller.MyController;
@@ -48,4 +49,7 @@ public class MyControllerIT {
 =======
 package ecommercePrice.mycontroller;public class MyControllerIT {
 >>>>>>> Merge applications
+=======
+package ecommercePrice.mycontroller;public class MyControllerIT {
+>>>>>>> dfdba07a1e605dafcac7445fa339c8d7b80a35d7
 }
