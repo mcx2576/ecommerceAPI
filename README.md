@@ -1,5 +1,4 @@
 # ecommerceAPI
-=======
 # Getting Started
 This is an application write in Java 17 using *spring-boot mvc*, it has several components.
 ### Application Class
