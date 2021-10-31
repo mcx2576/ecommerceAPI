@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ecommerceAPI
 =======
 # Getting Started
@@ -29,4 +28,3 @@ All tests will be automatically triggered with `mvn clean install`.
 This application is using junit test to test individual model and service class using the command `mvn test -Dtest=WatchTest` or `mvn test -Dtest=WatchServiceTest` 
 ### Integration test
 Spring-boot MVC has the mock module which allows us to mock the behavior of the controller. The test could be independantly run with `mvn test -Dtest=MyControllerIT` 
->>>>>>> origin/master
