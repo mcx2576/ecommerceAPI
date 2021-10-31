@@ -1,5 +1,7 @@
 # ecommerceAPI
-# Getting Started
+## Business purpose
+This API aims to provide price to a list of watch products based on their features. You could call the api with list of watch IDs and it will return the total price of this list of Watch IDs.
+## Getting Started
 This is an application write in Java 17 using *spring-boot mvc*, it has several components.
 ### Application Class
 The application class takes the package *ecommercePrice* structure and scan automatically the model, controller and service packages from the project.
